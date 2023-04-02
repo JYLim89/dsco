@@ -10876,7 +10876,7 @@ textarea.form-control-lg {
 }
 
 .my-bg1 {  /**추가**/
-  background: url("../assets/3.png");
+  background: url("../assets/main.png");
   background-size: cover;
 }
 .my-bg2 {  /**추가**/
@@ -10884,7 +10884,11 @@ textarea.form-control-lg {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.my-bg3 {/**추가**/
+  background: url("../assets/skyscraper.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
 
 /**네비바추가**/
 /* Table of contents */
