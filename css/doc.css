@@ -13,18 +13,18 @@
 .greeting .pic {flex:1 1 450px; max-width:450px; line-height:0;}
 .greeting .cnt {flex:1 auto; width:1%; padding-left:70px;}
 .greeting .cnt h3 {font-size:24px; line-height:1.3em; font-weight:500; color:#242424; margin-bottom:24px;}
-.greeting .cnt h3 span {color:#046db7;}
+.greeting .cnt h3 span {color:#3c3c3c;}
 .greeting .cnt p {font-size:17px; line-height:28px; color:#454545; margin-bottom:28px;}
-.greeting .cnt p span {color:#046db7;}
+.greeting .cnt p span {color:#3c3c3c;}
 .greeting .cnt p:last-child {margin-bottom:0;}
 .greeting .cnt p strong {font-weight:500; font-size:18px; color:#242424;}
 
 .history .group {border-bottom:1px solid #ddd; padding:25px 0; display:flex; font-size:17px; line-height:30px;}
 .history .group:first-child {padding:0 0 25px;}
-.history .year {flex:1 1 76px; max-width:76px; font-family: 'Roboto'; font-size:22px; font-weight:500; color:#046db7; padding-top:2px;}
+.history .year {flex:1 1 76px; max-width:76px; font-family: 'Roboto'; font-size:22px; font-weight:500; color:#3c3c3c; padding-top:2px;}
 .history .cnt {flex:1 auto; width:1%;}
 .history .cnt ul li {position:relative; display:flex; margin-bottom:10px; padding-left:44px;}
-.history .cnt ul li:after {content:""; position:absolute; top:10px; left:0; width:13px; height:13px; border-radius:50%; border:3px solid #046db7;}
+.history .cnt ul li:after {content:""; position:absolute; top:10px; left:0; width:13px; height:13px; border-radius:50%; border:3px solid #3c3c3c;}
 .history .cnt ul li:last-child {margin-bottom:0;}
 .history .cnt ul li .month {flex:1 1 62px; max-width:62px; font-weight:500; color:#242424;}
 .history .cnt ul li .txt {flex:1 auto; width:1%; color:#454545;}
@@ -46,7 +46,7 @@
 .mission-vision .vision-wrap ul li .cnt p {font-size:16px; line-height:24px; color:#454545;}
 
 .mission-vision .vision-wrap ul li.bg1 .icon {background:#888;}
-.mission-vision .vision-wrap ul li.bg2 .icon {background:#046db7;}
+.mission-vision .vision-wrap ul li.bg2 .icon {background:#3c3c3c;}
 .mission-vision .vision-wrap ul li.bg3 .icon {background:#cc0000;}
 
 .ci-wrap .txt {margin-bottom:35px;}
@@ -87,8 +87,8 @@
 .sub-tab ul li a:after {content:""; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:0; height:3px; background:transparent; transition:.3s ease-in-out;}
 .sub-tab ul li:last-child a {border-right:1px solid #ddd;}
 .sub-tab ul li.active {}
-.sub-tab ul li.active a {color:#046db7;}
-.sub-tab ul li.active a:after {width:100%; background:#046db7;}
+.sub-tab ul li.active a {color:#3c3c3c;}
+.sub-tab ul li.active a:after {width:100%; background:#3c3c3c;}
 
 .product-wrap .group {margin-bottom:50px;}
 .product-wrap .group:last-child {margin-bottom:0;}
@@ -120,7 +120,7 @@
 
 .as-wrap ul {display:flex;}
 .as-wrap ul li {width:33.333333%; text-align:center;}
-.as-wrap ul li .icon {width:200px; height:200px; border-radius:100%; margin:0 auto 25px; background:#046db7; overflow:hidden;}
+.as-wrap ul li .icon {width:200px; height:200px; border-radius:100%; margin:0 auto 25px; background:#3c3c3c; overflow:hidden;}
 .as-wrap ul li .tit {font-size:20px; line-height:1.3em; font-weight:500; color:#242424; margin-bottom:12px;}
 .as-wrap ul li .info {font-size:16px; line-height:24px; color:#454545;}
 .as-wrap ul li .info p strong {font-size:17px; font-weight:500; color:#242424;}
@@ -130,13 +130,13 @@
 .local .group > .map-wrap {margin-bottom:0;}
 .local .addr-list {margin-bottom:25px;}
 .local .addr-list ul li {display:flex; font-size:16px; line-height:40px; color:#454545;}
-.local .addr-list ul li .tt {position:relative; flex:1 1 95px; max-width:95px; margin-right:20px; font-size:20px; font-weight:700; color:#046db7;}
+.local .addr-list ul li .tt {position:relative; flex:1 1 95px; max-width:95px; margin-right:20px; font-size:20px; font-weight:700; color:#3c3c3c;}
 .local .addr-list ul li .tt:after {content:""; position:absolute; top:20px; right:0; width:1px; height:12px; margin-top:-6px; background:#ddd;}
 .local .addr-list ul li p {flex:1 auto; width:1%;}
 .local .map-wrap {margin-bottom:38px;}
 .local .map-img {line-height:0; margin-bottom:38px;}
 .local .sub-tit {position:relative; padding-left:25px; font-size:20px; line-height:1.4em; font-weight:500; color:#242424; margin-bottom:15px;}
-.local .sub-tit:after {content:""; position:absolute; top:7px; left:0; width:15px; height:15px; border-radius:100%; border:4px solid #046db7;}
+.local .sub-tit:after {content:""; position:absolute; top:7px; left:0; width:15px; height:15px; border-radius:100%; border:4px solid #3c3c3c;}
 .local .addr-info {display:flex; flex-wrap:wrap; margin-bottom:-35px;}
 .local .addr-info > div {width:50%; margin-bottom:35px;}
 .local .addr-info .list {padding-left:25px;}
@@ -158,7 +158,7 @@
 .management-policy ul li {width:33.333333%; padding:0 15px; text-align:center;}
 .management-policy ul li .img {margin-bottom:30px; line-height:0;}
 .management-policy ul li .tit {margin-bottom:15px; position:relative; font-size:20px; line-height:1.3em; font-weight:500; color:#242424;}
-.management-policy ul li .tit:after {content:""; display:block; width:40px; height:3px; background:#046db7; margin:15px auto 0;}
+.management-policy ul li .tit:after {content:""; display:block; width:40px; height:3px; background:#3c3c3c; margin:15px auto 0;}
 .management-policy ul li p {font-size:16px; line-height:24px; color:#454545;}
 
 .quality-policy {text-align:center;}
@@ -166,7 +166,7 @@
 .quality-policy .tit {font-size:20px; line-height:30px; font-weight:500; color:#242424;}
 .quality-policy p {font-size:18px; line-height:30px; color:#454545;}
 
-.blue{color: #046db7 !important;}
+.blue{color: #3c3c3c !important;}
 .recruit .doc-top-txt{font-size:25px;text-align:center;color: #242424;font-weight:500;line-height:1.4em;margin-bottom:60px;}	
 .recruit .doc-tt{font-size:19px;}
 .recruit .doc-tt .blue{font-weight:500;}
@@ -185,7 +185,7 @@
 .recruit.type2 .boxs li .box{border:1px solid #f6f6f6;display:flex;height:100%;padding:35px 20px;display:flex;}
 .recruit.type2 .boxs li .box .icon{width:90px;height:90px;border-radius:50%;background-color: #f8f8f8;display:flex;justify-content:center;align-items:center;margin-right:25px;}
 .recruit.type2 .boxs li .box .tt-wrap{min-width:0;width:1%;flex:1 1 auto;}
-.recruit.type2 .boxs li .box .tt-wrap .num{color: #046db7;font-weight:700;}
+.recruit.type2 .boxs li .box .tt-wrap .num{color: #3c3c3c;font-weight:700;}
 .recruit.type2 .boxs li .box .tt-wrap p{line-height:1.5em;color: #242424;}
 .recruit.type2 .img{margin-top:40px;}
 

@@ -444,7 +444,7 @@
 
 	.greeting .pic {margin:0 auto 35px;}
 	.greeting .cnt h3 {font-size:20px; margin-bottom:18px;}
-	.greeting .cnt h3 span {color:#046db7;}
+	.greeting .cnt h3 span {color:#3c3c3c;}
 	.greeting .cnt p {font-size:15px; line-height:24px; margin-bottom:24px;}
 	.greeting .cnt p strong {font-size:16px;}
 	.greeting .cnt p br {display:none;}
@@ -454,7 +454,7 @@
 	.history .year {max-width:none; font-size:20px; padding-top:0; margin-bottom:10px;}
 	.history .cnt {width:100%;}
 	.history .cnt ul li {padding-left:22px;}
-	.history .cnt ul li:after {top:8px; width:12px; height:12px; border:3px solid #046db7;}
+	.history .cnt ul li:after {top:8px; width:12px; height:12px; border:3px solid #3c3c3c;}
 	.history .cnt ul li .month {flex:1 1 55px; max-width:55px;}
 	.history .cnt ul li .txt p {margin-bottom:5px;}
 
@@ -533,7 +533,7 @@
 	.local .map-wrap {margin-bottom:25px;}
 	.local .map-img {margin-bottom:25px;}
 	.local .sub-tit {padding-left:22px; font-size:18px; margin-bottom:12px;}
-	.local .sub-tit:after {top:7px; width:13px; height:13px; border:3px solid #046db7;}
+	.local .sub-tit:after {top:7px; width:13px; height:13px; border:3px solid #3c3c3c;}
 	.local .addr-info {margin-bottom:-22px;}
 	.local .addr-info > div {margin-bottom:22px;}
 	.local .addr-info .list {padding-left:0;}
