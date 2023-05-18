@@ -23,7 +23,7 @@
 .board-list table tbody td img {vertical-align:middle; margin:-.2em 2px 0;}
 .board-list table tbody td a:hover {text-decoration:underline;}
 .board-list table tbody tr:hover td {background-color:#fafafa;}
-.board-list .label {color:#fff; font-weight:500; display:inline-block; padding:0 12px; font-size:14px; background:#046db7; border-radius:4px;}
+.board-list .label {color:#fff; font-weight:500; display:inline-block; padding:0 12px; font-size:14px; background:#3c3c3c; border-radius:4px;}
 .board-list .comment {color:#77abdc; font-size:.85em; font-weight:700; line-height:1em;}
 
 .board-list-m {display:none; border-top:2px solid #868686;}
@@ -210,14 +210,14 @@
 .buttons + .paginate {margin-top:20px;}
 
 .btn-pack {display:inline-block;overflow:visible;position:relative;margin:0;padding:0 10px;background:#fafafa;color:#333;border:1px solid #ddd;text-align:center;text-decoration:none !important;vertical-align:top;white-space:nowrap;cursor:pointer;}
-.btn-pack.focus {background:#046db7; border:1px solid #046db7; color:#fff;}
+.btn-pack.focus {background:#3c3c3c; border:1px solid #3c3c3c; color:#fff;}
 .btn-pack.dark {background:#555; border:1px solid #555; color:#fff;}
-.btn-pack.border {background:#fff; border:1px solid #046db7; color:#046db7;}
+.btn-pack.border {background:#fff; border:1px solid #3c3c3c; color:#3c3c3c;}
 .btn-pack.small {height:30px;padding:0 15px;line-height:28px;font-size:13px;}
 .btn-pack.medium {height:44px;padding:0 20px;line-height:43px;font-size:16px;}
 .btn-pack.large {min-width:130px; height:50px;padding:0 30px;line-height:48px;font-size:18px;font-weight:500;}
 .btn-pack.xlarge {min-width:180px; height:60px;padding:0 40px;line-height:58px;font-size:20px;font-weight:500;}
-.btn-pack.comment {width:120px; height:90px;padding:0;font-size:20px;font-weight:500;background:#fff;color:#046db7;border:1px solid #046db7;}
+.btn-pack.comment {width:120px; height:90px;padding:0;font-size:20px;font-weight:500;background:#fff;color:#3c3c3c;border:1px solid #3c3c3c;}
 
 .btn-map {display:inline-block; padding:0 15px; color:#505050; font-size:14px; font-weight:400; line-height:32px; letter-spacing:-.03em; border-radius:30px; background:#fff; border:1px solid #505050; text-align:center; text-decoration:none !important;}
 .btn-map:hover {color:#fff; background:#333; border-color:#333;}
@@ -226,7 +226,7 @@
 .paginate {margin-top:40px;text-align:center;}
 .paginate a,  
 .paginate strong{display:inline-block;padding:0;margin:0 3px;width:38px;height:38px;font-size:15px;font-weight:500;line-height:38px;color:#555;border-radius:100%;text-decoration:none;text-align:center;vertical-align:middle;}  
-.paginate strong{color:#fff;border-color:#046db7;background-color:#046db7;}  
+.paginate strong{color:#fff;border-color:#3c3c3c;background-color:#3c3c3c;}  
 .paginate a:focus,
 .paginate a:hover {background-color:#f4f4f4;}
 .paginate a.direction{background-position:50% 50%;background-repeat:no-repeat;}
