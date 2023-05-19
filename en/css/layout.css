@@ -18,7 +18,7 @@
 
 /* header */
 #header {position:absolute; top:0; left:0; width:100%; height:100px; z-index:90;}
-#header:after {content:""; position:absolute; bottom:0; left:0; width:100%; height:1px; background:rgba(255,255,255,0.4);}
+#header:after {content:""; position:absolute; bottom:0; left:0; width:100%; height:1px; background:#3c3c3c;}
 #header .contain {position:relative; height:100px; max-width:1720px; z-index:2;}
 #header .sitelogo {position:absolute; top:50%; left:100px; transform:translateY(-49%); z-index:10;}
 #header .sitelogo a {display:block; font-size:0; line-height:0; text-indent:-9999px; width:181px; height:45px; background:url('../images/common/logo.png') 0 0 no-repeat; background-size:100% 100%;}
@@ -38,19 +38,19 @@
 
 .submenu-bg {display:none; position:absolute; top:100px; left:0; width:100%; z-index:1; background:rgba(255,255,255,0.8);}
 
-.top-lang {position:absolute; top:50%; transform:translateY(-50%); right:100px; width:100px; height:100px; z-index:10; border-left:1px solid rgba(255,255,255,0.4);}
+.top-lang {position:absolute; top:50%; transform:translateY(-50%); right:100px; width:100px; height:100px; z-index:10; border-left:1px solid #3c3c3c;}
 .top-lang .title {display:flex; justify-content:center; align-items:center; width:100%; height:100%; font-size:16px; line-height:22px; font-weight:500; color:#fff;}
 .top-lang .title span {position:relative; padding-right:23px;}
 .top-lang .title span:after {content:""; position:absolute; top:50%; right:0; transform:translateY(-75%) rotate(45deg); width:12px; height:12px; border-right:2px solid #fff; border-bottom:2px solid #fff;}
 .top-lang.active .title:after {transform:translateY(-35%) rotate(-135deg);}
-.top-lang .f-options {display:none; position:absolute; top:100%; left:0; width:100%; font-size:16px; line-height:22px; border:1px solid rgba(255,255,255,0.4); overflow:auto;}
+.top-lang .f-options {display:none; position:absolute; top:100%; left:0; width:100%; font-size:16px; line-height:22px; border:1px solid #3c3c3c; overflow:auto;}
 .top-lang .f-options li {cursor:pointer; transition:.2s; text-align:center;}
-.top-lang .f-options li a {display:block; font-weight:300; color:#fff; padding:5px; border-top:1px solid rgba(255,255,255,0.4)}
+.top-lang .f-options li a {display:block; font-weight:300; color:#fff; padding:5px; border-top:1px solid #3c3c3c}
 .top-lang .f-options li:first-child a {border-top:0;}
-.top-lang .f-options li:hover a {background:rgba(255,255,255,0.4); color:#000;}
+.top-lang .f-options li:hover a {background:#3c3c3c; color:#000;}
 
 /* for mobile */
-.btn-menu {position:absolute; top:0; right:0; width:100px; height:100px; text-indent:-9999em; z-index:50; border-left:1px solid rgba(255,255,255,0.4);}
+.btn-menu {position:absolute; top:0; right:0; width:100px; height:100px; text-indent:-9999em; z-index:50; border-left:1px solid #3c3c3c;}
 .btn-m-menu {display:block; position:relative; width:100%; height:100px;}
 .btn-m-menu span {position:absolute; right:36px; top:49px; width:22px; height:2px; background:#fff; transition:.3s ease-in-out;}
 .btn-m-menu span:before,
@@ -100,7 +100,7 @@ html.menu-opened .mobile-overlay {display:block;}
 #header.header-hover .top-lang .f-options {background:#fff; border:1px solid #ddd;}
 #header.header-hover .top-lang .f-options li a {color:#242424; border-top:1px solid #ddd;}
 #header.header-hover .top-lang .f-options li:first-child a {border-top:0;}
-#header.header-hover .btn-menu {background:#c30f22; border-left-color:#c30f22;}
+#header.header-hover .btn-menu {background:#3c3c3c; border-left-color:#3c3c3c;}
 
 #sub #header {background:#fff; position:relative; top:auto; left:auto;}
 #sub #header .sitelogo a {background-image:url('../images/common/logo2.png');}
@@ -113,7 +113,7 @@ html.menu-opened .mobile-overlay {display:block;}
 #sub #header .top-lang .f-options {background:#fff; border:1px solid #ddd;}
 #sub #header .top-lang .f-options li a {color:#242424; border-top:1px solid #ddd;}
 #sub #header .top-lang .f-options li:first-child a {border-top:0;}
-#sub #header .btn-menu {background:#c30f22; border-left-color:#c30f22;}
+#sub #header .btn-menu {background:#3c3c3c; border-left-color:#3c3c3c;}
 
 /* main */
 #fp-nav {display:none;}
