@@ -152,11 +152,38 @@ html.menu-opened .mobile-overlay {display:block;}
 	z-index:3;
 }
 
-.sec-visual .visual-scroll {position:absolute; bottom:72px; left:50%; margin-left:-33px; z-index:10; line-height:0; text-align:center; width:66px; height:91px;
+.main-visual .visual-scroll {position:absolute; bottom:72px; left:50%; margin-left:-33px; z-index:10; line-height:0; text-align:center; width:66px; height:91px;
 	-webkit-animation: pulse 2s infinite;
             animation: pulse 2s infinite;
 }
-.sec-visual .visual-scroll a {display:block;}
+.main-visual .visual-scroll a {display:block;}
+
+.sec-main {position:relative; width:100%; background-image:url("../images/main-bg.jpg"); background-color:#fff; background-position:50% 50%; background-repeat:no-repeat; -webkit-background-size:cover; background-size:cover;}
+.sec-main .fp-tableCell {padding-top:100px;}
+.sec-main .contain {max-width:1400px;}
+.sec-main .title {text-align:center; margin-bottom:100px;}
+.sec-main .title h2 {font-size:35px; line-height:1.3em; color:#fff;}
+.sec-main .title p {font-size:16px; line-height:1.3em; color:#fff; font-weight:500; margin-top:5px;}
+.sec-main .list {padding-left:60px;}
+.sec-main .list ul {display:flex;}
+.sec-main .list ul li {width:33.333333%; text-align:center; transition:.3s ease-in-out;}
+.sec-main .list ul li a {display:block;}
+.sec-main .list ul li .icon {margin:0 auto 35px; width:250px; height:250px; border-radius:100%; overflow:hidden; background-color:rgba(255,255,255,0.3); background-position:50% 50%; background-repeat:no-repeat; -webkit-background-size:cover; background-size:cover; z-index:1;}
+.sec-main .list ul li .tit {font-size:28px; line-height:1.3em; font-weight:700; color:#fff; margin-bottom:10px;}
+.sec-main .list ul li p {font-size:18px; line-height:28px; color:#fff;}
+.sec-main .list ul li .icon.icon1 {background-image:url("../images/main/introduce_icon1.png");}
+.sec-main .list ul li .icon.icon2 {background-image:url("../images/main/introduce_icon2.png");}
+.sec-main .list ul li .icon.icon3 {background-image:url("../images/main/introduce_icon3.png");}
+.sec-main .list ul li:hover {margin-top:-40px;}
+.sec-main .list ul li:hover .icon {background-color:#fff; box-shadow:10px 10px 10px rgba(0,0,0,0.2);}
+.sec-main .list ul li:hover .icon.icon1 {background-image:url("../images/main/introduce_icon1_on.png");}
+.sec-main .list ul li:hover .icon.icon2 {background-image:url("../images/main/introduce_icon2_on.png");}
+.sec-main .list ul li:hover .icon.icon3 {background-image:url("../images/main/introduce_icon3_on.png");}
+.sec-main .btns {margin-top:65px; text-align:center;}
+.sec-main .btns a {display:block; margin:0 auto; width:200px; height:55px; border-radius:27px; background:#3c3c3c; box-shadow:7px 7px 7px rgba(0,0,0,0.2); font-size:17px; line-height:55px; font-weight:500; color:#fff;}
+.sec-main .btns a span {position:relative; padding-right:20px;}
+.sec-main .btns a span:after {content:""; position:absolute; top:50%; right:0; margin-top:-5px; width:11px; height:11px; background:url('../images/main/more1.png') 0 0 no-repeat; background-size:100% 100%;}
+
 
 .sec-introduce {position:relative; width:100%; background-image:url("../images/main/introduce_bg.jpg"); background-color:#fff; background-position:50% 50%; background-repeat:no-repeat; -webkit-background-size:cover; background-size:cover;}
 .sec-introduce .fp-tableCell {padding-top:100px;}
