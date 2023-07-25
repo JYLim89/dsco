@@ -253,3 +253,21 @@ jQuery(document).ready(function(){
 	});
 
 });	//End
+
+function mailSubmit() {
+	const contactForm = document.getElementById('contactForm');
+	const company = contactForm.company.value;
+	const name = contactForm.name.value;
+	const email = contactForm.email.value;
+	const phone = contactForm.phone.value;
+	const message = contactForm.message.value;
+
+	if (!company || !name || !email || !phone || !message) {
+		alert('Input all information');
+	} else if (!/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/.test(email)) {
+		alert('Input valid email address');
+	} else {
+		contactForm.submit();
+		alert('submit successfully!');
+	}
+}
